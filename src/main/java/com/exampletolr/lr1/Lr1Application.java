@@ -26,15 +26,15 @@ public class Lr1Application implements CommandLineRunner {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("=== Enter a number: ===");
+        System.out.print("--- Enter a number: ---");
         double base = scanner.nextDouble();
 
-        System.out.print("=== Enter the degree: ===");
+        System.out.print("--- Enter the degree: ---");
         int exponent = scanner.nextInt();
 
         double result = mathService.calculatePower(base, exponent);
 
-        System.out.println("=== Result: ===");
+        System.out.println("--- Result: ---");
         System.out.println(base + " ^ " + exponent + " = " + result);
 
         scanner.close();
