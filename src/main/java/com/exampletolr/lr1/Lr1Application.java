@@ -26,6 +26,7 @@ public class Lr1Application implements CommandLineRunner {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("=== MAIN VERSION ===");
         System.out.print("--- Enter a number: ---");
         double base = scanner.nextDouble();
 
